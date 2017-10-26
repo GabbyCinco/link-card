@@ -2,11 +2,26 @@ html {
   font-family: "Georgia", serif;
   line-height: 1.5;
   background-color: #f0eee8;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card-wrap {
+  text-decoration: none;
+  text-align: center;
+  background-color: #dcd4cd;
+  margin: 0 0 1rem;
+  padding: 1rem;
+  border-style: solid;
+  border-color: #9a816d;
+  border-radius: 3px;
 }
 
 .link-card {
   text-decoration: none;
-  text-align: center;
 }
 
 .title {
