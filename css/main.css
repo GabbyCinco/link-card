@@ -1,5 +1,13 @@
 html {
   font-family: "Georgia", serif;
   line-height: 1.5;
+}
 
+.link-card {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  color: #512200;
 }
