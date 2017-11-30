@@ -56,7 +56,6 @@ html {
   text-align: left;
   display: block;
   color: #512200;
-  font-style: italic;
   font-size: .875rem;
   margin: 0 0 1rem;
   padding-top: 1em;
@@ -73,6 +72,10 @@ html {
 .list dt {
   float: left;
   width: 50%;
+}
+
+.list dd {
+  font-style: italic;
 }
 
 .btn {
